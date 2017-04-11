@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testresults1]">
+  <test name="BuildResult1(failed)">
+    <classes>
+      <class name="justrechargeit.Login">
+        <methods>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- justrechargeit.Login -->
+    </classes>
+  </test> <!-- BuildResult1(failed) -->
+</suite> <!-- Failed suite [Testresults1] -->

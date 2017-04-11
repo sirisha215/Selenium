@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testresults1">
+	<test name="BuildResult1">
+		<classes>
+			<class name="justrechargeit.browser_launch"></class>
+			<class name="justrechargeit.Login"></class>
+		</classes>
+	</test>
+</suite>

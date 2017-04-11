@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name=" JRI Cross Browser Testing">
+	<test name="Firefox_Results">
+		<parameter name="Browser" value="firefox"></parameter>
+		<classes>
+		<class name="justrechargeit.Cross_Browser_testing"></class>
+		</classes>
+	</test>
+	<test name="Chrome_Results">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+		<class name="justrechargeit.Cross_Browser_testing"></class>
+		</classes>
+	</test>
+	<test name="IE_Results">
+		<parameter name="Browser" value="IE"></parameter>
+		<classes>
+		<class name="justrechargeit.Cross_Browser_testing"></class>
+		</classes>
+	</test>
+</suite>

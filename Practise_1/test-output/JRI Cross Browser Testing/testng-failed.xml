@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ JRI Cross Browser Testing]">
+  <parameter name="Browser" value="IE"/>
+  <test name="Firefox_Results(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="justrechargeit.Cross_Browser_testing">
+        <methods>
+          <include name="addmobile_no"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- justrechargeit.Cross_Browser_testing -->
+    </classes>
+  </test> <!-- Firefox_Results(failed) -->
+  <test name="Chrome_Results(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="justrechargeit.Cross_Browser_testing">
+        <methods>
+          <include name="addmobile_no"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- justrechargeit.Cross_Browser_testing -->
+    </classes>
+  </test> <!-- Chrome_Results(failed) -->
+  <test name="IE_Results(failed)">
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="justrechargeit.Cross_Browser_testing">
+        <methods>
+          <include name="addmobile_no"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- justrechargeit.Cross_Browser_testing -->
+    </classes>
+  </test> <!-- IE_Results(failed) -->
+</suite> <!-- Failed suite [ JRI Cross Browser Testing] -->

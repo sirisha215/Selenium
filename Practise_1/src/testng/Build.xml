@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testresults">
+	<test name="BuildResult">
+		<classes>
+			<class name="testng.first_program"></class>
+			<class name="testng.NewTest"></class>
+			<class name="testng.Second_program"></class>
+			<class name="testng.third_program_methods"></class>
+		</classes>
+	</test>
+</suite>
