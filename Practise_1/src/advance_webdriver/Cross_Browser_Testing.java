@@ -55,6 +55,9 @@ public class Cross_Browser_Testing {
   @AfterTest
   public void afterTest() {
 	  driver.quit();
+	  System.out.println("testing new enhancement");
   }
+  
+  
 
 }
